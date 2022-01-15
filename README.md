@@ -1,2 +1,2 @@
-# cs424
-Data Visualisation Spring 2022 
+# Project-Page: Gautam Kushwah
+CS 424 - Data Visualisation Spring 2022 
