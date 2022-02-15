@@ -25,7 +25,44 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Introduction
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This is an app made using R studio and Shiny, the links to which have been provided above.
+
+### What is R?
+
+R is a programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing
+
+
+### What is Shiny?
+
+Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards
+
+
+### Purpose of this App
+
+The purpose of this app is to use the data provided on riders on the Chicago L over the past 20 years and use shiny to give people an interactive interface to create those visualizations. The app provides various data visualizations in the form of bar graphs breaking down data across all years, individual years, months, and even days in a week over a month.
+
+It shows interesting trends and helps understand the user the behavior of the riders on the Chicago which in turn could be explained by various events occurring at the same time.
+
+The app could also help find interesting dates in the last 20 years which might have affected the behavior of the riders and thus help us understand the power of data and data visualization.
+
+### How to use the App?
+
+You can head over to the app here. Upon opening the app, you would be greeted with a Shiny dashboard which would give you various bar charts. 
+
+The screen in divided into 3 parts:
+1. The Side Bar: This has navigation controls and data input controls for the charts on right hand side of the screen
+2. Left Region: This shows various bar charts for station one, which by default is UIC-Halsted.
+3. Right Region: This shows various bar charts for station two, which by default is O’Hare Airport.
+
+IMAGE GOES HERE
+
+
+The user can compare the same station on both sides across different times using the dropdown menus in the side bar
+
+
+
+
+
 
 ## Header 2
 
