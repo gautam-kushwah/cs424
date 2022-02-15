@@ -118,105 +118,31 @@ I used the library **dplyr** for chaining/piping commands and R commands such as
 # Github
 
 
+The github repo for the source code could be found below
+[!Github Repo CS424](https://github.com/gautam-kushwah/cs424)
+
+The source code is the file called **app.R**, with all the broken uptsv files named from partaa.tsv to partah.tsv
+
+To run the code you would need to download and install R and R-Studio the links to which could be found [!here](https://repo.miserver.it.umich.edu/cran/) and [!here](https://rstudio.com/products/rstudio/download/) respectively 
+
+Either clone or download the zip file from the repo and unzip it on your machine in your preferred location.
+Now to run the app follow these steps:
+
+1 Open R-studio
+2 Click on File->New Project
+3 Choose existing directory from the pop-up window
+4 Now select the directory where you have downloaded the project
+5 Follow the on screen instruction
+
+Once the project has been created/opened go to app.R from the navigation tab on the bottom right of the IDE
+Then in the file editor window on the top left, you would find a run app button, alternatively you could also use the R console and type in the command “runApp()”
+
+The app would be launched in a separate window.
+
+You could also open it in your web-browser by clicking on “open in web browser” button in the app window
+
+To refer to the instructions on how to use and interact with app, please read the **How to Use the App** section above
+
+
+
 # Observation and Inferences 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
