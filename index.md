@@ -1,5 +1,7 @@
 
-CS 424 - Project Page
+# CS 424 - Project Page
+maintained by
+
 Gautam Kushwah
 
 
@@ -137,10 +139,7 @@ To refer to the instructions on how to use and interact with app, please read th
 
 # Observation and Inferences 
   
-CS424
 
-
-Github
 
 Using the shiny app interface and seeing anomalies and searching those dates on the internet or using my knowledge of current affairs of the world at the time I was able to find “Ten Interesting Dates” in the dataset
 
