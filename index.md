@@ -4,20 +4,26 @@ Gautam Kushwah
 
 
 
----
-layout: default
----
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
-[link to website](https://www.youtube.com/)
+# Important Links
+
+[Link to Shiny App for Project 1](https://gautam-kushwah.shinyapps.io/424project1/)
+
+### Resources
+
+[Link to another page](./another-page.html)
+
+
+[link to Video Walkthrough](https://www.youtube.com/)
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Introduction
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
@@ -27,6 +33,15 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
+# About the Data
+
+The data was obtained from
+
+
+# Github
+
+
+# Observation and Inferences 
 ### Header 3
 
 ```js
