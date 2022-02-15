@@ -6,17 +6,13 @@ Gautam Kushwah
 
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+
 
 # Important Links
 
 [Link to Shiny App for Project 1](https://gautam-kushwah.shinyapps.io/424project1/)
 
 ### Resources
-
-[Link to another page](./another-page.html)
-
-
 [link to Video Walkthrough](https://www.youtube.com/)
 
 There should be whitespace between paragraphs.
@@ -64,16 +60,10 @@ The user can compare the same station on both sides across different times using
 
 
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
 # About the Data
 
 
-The data was obtained from Chicago Data portal, the link to the data could be found [!here](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f)
+The data was obtained from Chicago Data portal, the link to the data could be found [here](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f)
 
 This list shows daily totals of ridership, by station entry, for each 'L' station dating back to 2001. Dataset shows entries at all turnstiles, combined, for each station.
 
@@ -119,11 +109,11 @@ I used the library **dplyr** for chaining/piping commands and R commands such as
 
 
 The github repo for the source code could be found below
-[!Github Repo CS424](https://github.com/gautam-kushwah/cs424)
+[Github Repo CS424](https://github.com/gautam-kushwah/cs424)
 
 The source code is the file called **app.R**, with all the broken uptsv files named from partaa.tsv to partah.tsv
 
-To run the code you would need to download and install R and R-Studio the links to which could be found [!here](https://repo.miserver.it.umich.edu/cran/) and [!here](https://rstudio.com/products/rstudio/download/) respectively 
+To run the code you would need to download and install R and R-Studio the links to which could be found [!here](https://repo.miserver.it.umich.edu/cran/) and [here](https://rstudio.com/products/rstudio/download/) respectively 
 
 Either clone or download the zip file from the repo and unzip it on your machine in your preferred location.
 Now to run the app follow these steps:
@@ -146,3 +136,56 @@ To refer to the instructions on how to use and interact with app, please read th
 
 
 # Observation and Inferences 
+  
+CS424
+
+
+Github
+
+Using the shiny app interface and seeing anomalies and searching those dates on the internet or using my knowledge of current affairs of the world at the time I was able to find “Ten Interesting Dates” in the dataset
+
+Those are
+
+#### 1 Lockdown Ended
+
+This one was the most obvious as we can see the trends in 2021, especially after July 2021, when normal functioning of the society resumed and people started returning to their work. This was also around the same time when the US government opened borders for international student and people of national interest.
+
+#### 2 Covid-19
+
+I think this is one of the biggest events of my generation’s lifetime, which is pretty evident from the sharp decline in the number of ridership starting January  2020, and then an even sharper decline in March 2020 onwards. This is where most nations across the world starting imposing nationwide lockdowns
+
+#### 3 CTA Blue line Shutdown
+
+As can be seen in the data for O’Hare Airport station the number of rides are very less in some particular days in September - October 2019. Naturally I was intrigued so I ran a quick search on the internet about the events of 2019. A found a [news article](https://chicago.curbed.com/2019/9/27/20887180/cta-blue-line-ohare-rosemont-shutdown-construction) which details shutdown ofg the O’Hare station due to construction of a new route
+
+#### 4 Summer Break
+
+This event is more evident on the UIC-Halsted station as this is the one most used by the students for their saily commute. Also, this pattern is evident across years (apart from COVID lockdowns) I have arbitrary chosen 2017 to demonstrate this trend.
+
+#### 5 September 11 attacks
+
+This one was one of the saddest events in our history. Which is pretty evident by the data but upon closer look you could also uncover the resilience of the people of the United States as things bounced back to normal within a short span of time in terms of ridership.
+
+#### 6 CTA ridership grows
+
+If you look at the ridership data across the last 20 years, the upwards growing trend starting from 2010 onwards and continuing through the next few years is very evident.
+A quick internet search also reveals that the ridership was highest in two decades in 2011, a link to the relevant article could be found [here](https://www.transitchicago.com/2011-cta-ridership-reaches-highest-level-in-two-decades/)
+
+#### 7 CTA derailment
+
+I noticed a sudden dip in rides in january 2007, although I found an article I am not entirely sure if the two are related. The link to the article is [here](https://www.chicagotribune.com/news/ct-xpm-2007-01-19-0701190114-story.html)
+
+#### 8 Fall session starts
+
+This one is pertaining to UIC-Halsted as is evident across years. Again I arbitrarily chose a year.
+
+#### 9 Crash at O'Hare Blue line
+
+If you notice the ridership at O’Hare station for the year 2014, the ridership dips suddenly around march-april. If you do a quick internet set for the major events of 2014 in chicago, a link to a [wikipedia article](https://en.wikipedia.org/wiki/O%27Hare_station_train_crash) pops up, detailing the crash
+
+#### 10 Lollapalooza Music Festival
+
+The lollapalooza Festival which took place in 2011 in Grant Park was one of the biggest music festivals. I found it by looking at the unusually high number of ridership around july end - aug starting
+
+
+
