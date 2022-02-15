@@ -15,11 +15,8 @@ Gautam Kushwah
 [Link to Shiny App for Project 1](https://gautam-kushwah.shinyapps.io/424project1/)
 
 ### Resources
-[link to Video Walkthrough](https://www.youtube.com/)
+[link to Video Walkthrough](https://youtu.be/c_gRwMqGOCI)
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Introduction
 
