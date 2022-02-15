@@ -54,7 +54,7 @@ The screen in divided into 3 parts:
 2. Left Region: This shows various bar charts for station one, which by default is UIC-Halsted.
 3. Right Region: This shows various bar charts for station two, which by default is O’Hare Airport.
 
-[!IMAGE GOES HERE](https://drive.google.com/file/d/15a20v0eG29fKueH79qzyFh6lcrEeDG6G/view?usp=sharing)
+![IMAGE GOES HERE](https://drive.google.com/file/d/15a20v0eG29fKueH79qzyFh6lcrEeDG6G/view?usp=sharing)
 
 
 The user can compare the same station on both sides across different times using the dropdown menus in the side bar
