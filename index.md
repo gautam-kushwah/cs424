@@ -55,7 +55,7 @@ The screen in divided into 3 parts:
 3. Right Region: This shows various bar charts for station two, which by default is O’Hare Airport.
 
 ![IMAGE GOES HERE](https://drive.google.com/file/d/15a20v0eG29fKueH79qzyFh6lcrEeDG6G/view?usp=sharing)
-
+![image]('./Screenshot 2022-02-15 at 1.49.24 PM.png')
 
 The user can compare the same station on both sides across different times using the dropdown menus in the side bar
 
