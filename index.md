@@ -54,7 +54,7 @@ The screen in divided into 3 parts:
 2. Left Region: This shows various bar charts for station one, which by default is UIC-Halsted.
 3. Right Region: This shows various bar charts for station two, which by default is O’Hare Airport.
 
-![IMAGE GOES HERE](https://drive.google.com/file/d/15a20v0eG29fKueH79qzyFh6lcrEeDG6G/view?usp=sharing)
+[!Link to image if not rendered](https://drive.google.com/file/d/15a20v0eG29fKueH79qzyFh6lcrEeDG6G/view?usp=sharing)
 ![image](./image.png)
 
 The user can compare the same station on both sides across different times using the dropdown menus in the side bar
@@ -72,7 +72,47 @@ The user can compare the same station on both sides across different times using
 
 # About the Data
 
-The data was obtained from
+
+The data was obtained from Chicago Data portal, the link to the data could be found [!here](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f)
+
+This list shows daily totals of ridership, by station entry, for each 'L' station dating back to 2001. Dataset shows entries at all turnstiles, combined, for each station.
+
+The data consists of 5 columns and about 1.09 million rows.
+
+The columns are as follows
+**station_id** - Unique ID for a station
+**stationname** - The name of the station
+**date** - The date of the entries
+**daytype** - W=Weekday, A=Saturday, U=Sunday/Holiday
+**rides** - total number of ridership on that date
+
+
+The date was provided in a chr format, therefore it had to be converted into a usable format which was achieved through a R library called **lubridate**
+
+The data was downloaded in tsv format, since the free version of Shiny allows us to only work with files which are <5 mb, I used shell script to break it down into smaller files using shell and the following command
+
+```
+split -b <size in kb> <filename> <name of parts>
+```
+
+The <name of parts> signifies what the broken down files would be named.
+
+
+I then used a code editor to verify if the files were broken down correctly, and upon verifying that I loaded the filenames in a list in R and then stitched them together into a single table, hence being able to work with all the rows.
+
+
+The next step included breaking down the entire dataset into three individual data sets, each based on the stations I was interested in. For this project, I used three stations namely : **UIC-Halsted**, **O’Hare Airport** and one closest to which I live i.e **Polk**.
+
+Each dataset had to grouped by three criterias:
+1. Years
+2. Months in that year
+3. Days in that Month
+
+Each of which was done dynamically using the choices provided by the user using reactive elements in R.
+I used the library **dplyr** for chaining/piping commands and R commands such as “subset” and “group_by” to get the subset of data based on the station and then group that data based on days, months or years, respectively.
+
+
+
 
 
 # Github
